@@ -3,3 +3,82 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* INIZIO NAVBAR XS */
+
+.navbar {
+  border: 0;
+  background-color: rgb(34, 47, 62);
+  font-weight: 800;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  height: 95px;
+  text-transform: uppercase;
+  line-height: 65px;
+}
+
+.navbar-default .navbar-brand  {
+  color: #fff;
+  font-size: 25px;
+}
+
+.navbar-toggle {
+  margin-top: 30px;
+}
+
+/* FINE NAVBAR XS */
+
+/* INIZIO JUMBO XS */
+
+.col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.jumbo {
+  background-color: rgb(32, 177, 138);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jumbo > .content-jumbo > img {
+  width: 60%;
+  margin: 15px 0;
+}
+
+/* FINE JUMBO XS */
+
+/* MEDIA SM */
+
+@media all and (min-width: 768px) {
+
+.container {
+  width: 90%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  line-height: 65px;
+  text-transform: uppercase;
+}
+
+}
+
+/* MEDIA MD */
+
+@media all and (min-width: 992px) {
+
+  .container {
+    width: 80%;
+  }
+
+}
+
+/* MEDIA LG */
+
+@media all and (min-width: 1200px) {
+
+}
