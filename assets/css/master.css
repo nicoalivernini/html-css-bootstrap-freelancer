@@ -4,29 +4,35 @@
   box-sizing: border-box;
 }
 
+
 /* INIZIO NAVBAR XS */
 
 .navbar {
   border: 0;
   background-color: rgb(34, 47, 62);
-  font-weight: 800;
-  border-radius: 0;
+  font-weight: 700;
   margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  /* line-height: 65px;
+  height: 95px; */
 }
 
 .navbar-brand {
-  height: 95px;
-  text-transform: uppercase;
-  line-height: 65px;
+
+
 }
 
 .navbar-default .navbar-brand  {
   color: #fff;
   font-size: 25px;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
 }
 
 .navbar-toggle {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 /* FINE NAVBAR XS */
@@ -62,6 +68,8 @@
 
 .line-star {
   padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .left-star-light, .right-star-light {
@@ -103,7 +111,6 @@
   color: #fff;
   text-transform: uppercase;
   font-size: 19px;
-  font-weight: 500;
 }
 
 
@@ -111,27 +118,40 @@
 
 /* INIZIO PORTFOLIO XS */
 
-.text-portfolio {
+.text-star {
   text-align: center;
-  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-.content-portfolio {
-  height: 100px;
+.text-star > h2 {
+  text-transform: uppercase;
+}
+
+.content-portfolio  {
+  padding: 15px;
+}
+
+.content-portfolio img {
+  width: 100%;
   border-radius: 15px;
-  background-color: red;
 }
-
 
 /* FINE PORTFOLIO XS */
+
+/* INIZIO ABOUT XS */
+
+.text-about > p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* FINE ABOUT XS */
 
 /* MEDIA SM */
 
 @media all and (min-width: 768px) {
 
-.container {
-  width: 90%;
-}
 
 .container-fluid {
   padding: 0 10%;
@@ -163,9 +183,7 @@
 
 @media all and (min-width: 992px) {
 
-  .container {
-    width: 80%;
-  }
+
 
   .jumbo > .content-jumbo > img {
     width: 20%;
