@@ -68,6 +68,14 @@
   background-color: rgb(32, 177, 138);
 }
 
+.bg-blue {
+  background-color: rgb(34, 47, 62);
+}
+
+.bg-dark-blue {
+  background-color: rgb(33, 47, 63);
+}
+
 .line-star {
   padding: 15px 0;
   margin: 0 auto;
@@ -173,6 +181,42 @@ color: #fff;
 padding-right: 5px;
 }
 /* FINE ABOUT XS */
+
+/* INIZIO CONTACT ME XS */
+
+.form-control {
+  box-shadow: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+  padding: 6px 0;
+  width: 100%;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #555;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(32, 177, 138);
+  border-color: rgb(32, 177, 138);
+  margin-top: 15px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(34, 47, 62);
+    border-color: rgb(34, 47, 62);
+}
+
+.form-group > textarea {
+  width: 100%;
+}
+
+/* FINE CONTACT ME XS */
 
 /* MEDIA SM */
 
