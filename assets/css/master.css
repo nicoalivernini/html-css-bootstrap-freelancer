@@ -16,12 +16,13 @@
   text-transform: uppercase;
   line-height: 65px;
   height: 95px;
+  border-radius: 0;
 }
 
 .navbar-brand {
   height: 95px;
   line-height: 65px;
-  border-radius: 0;
+
 }
 
 .navbar-default .navbar-brand  {
@@ -114,10 +115,13 @@
   font-size: 19px;
 }
 
-
 /* FINE JUMBO XS */
 
 /* INIZIO PORTFOLIO XS */
+
+.portfolio {
+  padding-bottom: 20px;
+}
 
 .text-star {
   text-align: center;
@@ -145,24 +149,44 @@
 .text-about > p {
   font-size: 20px;
   color: #fff;
+  padding: 20px 1.5rem;
 }
 
+.btn-download {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.btn-default {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-download > button:before {
+content: '\f019';
+font-family: "Font Awesome 5 Free";
+font-weight: 900;
+color: #fff;
+padding-right: 5px;
+}
 /* FINE ABOUT XS */
 
 /* MEDIA SM */
 
 @media all and (min-width: 768px) {
 
-
-.container-fluid {
-  padding: 0 10%;
-}
+/* NAVBAR SM */
 
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
   line-height: 65px;
   text-transform: uppercase;
 }
+
+/* JUMBO SM */
 
 .jumbo {
   padding-bottom: 35px;
@@ -178,20 +202,33 @@
   padding: 25px 0;
 }
 
+/* PORTFOLIO SM */
+
+.portfolio {
+  padding-bottom: 50px;
+}
+
+
+
 }
 
 /* MEDIA MD */
 
 @media all and (min-width: 992px) {
 
+/* JUMBO MD */
 
+.jumbo > .content-jumbo > img {
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 
-  .jumbo > .content-jumbo > img {
-    width: 20%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
+/* ABOUT */
 
+.btn-download {
+  padding-bottom: 30px;
+}
 
 }
 
