@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /* INIZIO NAVBAR XS */
 
 .navbar {
@@ -295,7 +294,7 @@ padding-right: 5px;
 }
 /* FINE FOOTER XS */
 
-/* MEDIA SM */
+/* ---- MEDIA SM ---- */
 
 @media all and (min-width: 768px) {
 
@@ -343,11 +342,9 @@ padding-right: 5px;
   padding: 25px;
 }
 
-
-
 }
 
-/* MEDIA MD */
+/* ---- MEDIA MD ---- */
 
 @media all and (min-width: 992px) {
 
@@ -367,7 +364,7 @@ padding-right: 5px;
 
 }
 
-/* MEDIA LG */
+/* ---- MEDIA LG ---- */
 
 @media all and (min-width: 1200px) {
 
