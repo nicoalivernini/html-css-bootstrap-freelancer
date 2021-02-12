@@ -159,15 +159,40 @@
 
 .content-portfolio img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 20px;
   padding: 10px 0;
 }
 
-.content-portfolio:hover img {
-  opacity: 0.3;
-  color: green;
+.content-portfolio {
+  position: relative;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgb(32, 177, 138);
+  border-radius: 13px;
+  margin: 10px 0;
+}
+
+.content-portfolio:hover .overlay{
+  opacity: 0.9;
+}
+
+.overlay > .fas {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* FINE PORTFOLIO XS */
 
