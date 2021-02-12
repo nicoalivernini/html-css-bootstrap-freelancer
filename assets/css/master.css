@@ -163,6 +163,12 @@
   padding: 10px 0;
 }
 
+.content-portfolio:hover img {
+  opacity: 0.3;
+  color: green;
+}
+
+
 /* FINE PORTFOLIO XS */
 
 /* INIZIO ABOUT XS */
